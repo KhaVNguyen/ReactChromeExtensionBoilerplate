@@ -1,0 +1,15 @@
+{
+  "name": "Name here",
+  "version": "1.0",
+  "description": "Description here",
+  "permissions": ["declarativeContent", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "options_page": "options.html"
+}
